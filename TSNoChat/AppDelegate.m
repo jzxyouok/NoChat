@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TSTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,18 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self setNavigationBar];
+    
+    TSTabBarViewController *tabBarVC = [[TSTabBarViewController alloc]init];
+    self.window.rootViewController = tabBarVC;
+    
+    // 设置Window为主窗口并显示出来
+    [self.window makeKeyWindow];
     return YES;
 }
 
@@ -40,6 +51,17 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - 设置NavigationBar的颜色
+- (void)setNavigationBar
+{
+    UINavigationBar *bar = [UINavigationBar appearance];
+    // 设置显示颜色
+    bar.barTintColor = NavigationBarColor;
+    // 设置字体颜色
+    bar.tintColor = [UIColor whiteColor];
+    [bar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
 }
 
 @end

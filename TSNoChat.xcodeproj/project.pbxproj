@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59372CCFC93E21D0E1D6E84B /* libPods-TSNoChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17798C26D10E98CA87CCB764 /* libPods-TSNoChat.a */; };
 		E358268F1D48917000210E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E358268E1D48917000210E84 /* main.m */; };
 		E35826921D48917000210E84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826911D48917000210E84 /* AppDelegate.m */; };
 		E35826951D48917000210E84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826941D48917000210E84 /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		E358269D1D48917000210E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E358269B1D48917000210E84 /* LaunchScreen.storyboard */; };
 		E35826A81D48917000210E84 /* TSNoChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826A71D48917000210E84 /* TSNoChatTests.m */; };
 		E35826B31D48917000210E84 /* TSNoChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826B21D48917000210E84 /* TSNoChatUITests.m */; };
+		E35826CD1D48982300210E84 /* Find.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35826CC1D48982300210E84 /* Find.xcassets */; };
+		E35826D01D4898A500210E84 /* TSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826CF1D4898A500210E84 /* TSNavigationViewController.m */; };
+		E35826D31D4898B700210E84 /* TSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826D21D4898B700210E84 /* TSTabBarViewController.m */; };
+		E35826DA1D48996700210E84 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826D91D48996700210E84 /* ChatViewController.m */; };
+		E35826DD1D48997C00210E84 /* LinkManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826DC1D48997C00210E84 /* LinkManViewController.m */; };
+		E35826E01D48999300210E84 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826DF1D48999300210E84 /* FindViewController.m */; };
+		E35826E31D4899A100210E84 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35826E21D4899A100210E84 /* SetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17798C26D10E98CA87CCB764 /* libPods-TSNoChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNoChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949F6D6951CD1501B39C0D4 /* Pods-TSNoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSNoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSNoChat/Pods-TSNoChat.release.xcconfig"; sourceTree = "<group>"; };
+		C438986B2D4E5200FBC8ED1A /* Pods-TSNoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSNoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSNoChat/Pods-TSNoChat.debug.xcconfig"; sourceTree = "<group>"; };
 		E358268A1D48917000210E84 /* TSNoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSNoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E358268E1D48917000210E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E35826901D48917000210E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,21 @@
 		E35826AE1D48917000210E84 /* TSNoChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSNoChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35826B21D48917000210E84 /* TSNoChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSNoChatUITests.m; sourceTree = "<group>"; };
 		E35826B41D48917000210E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35826C31D4891F100210E84 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		E35826C81D48963100210E84 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E35826CC1D48982300210E84 /* Find.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Find.xcassets; sourceTree = "<group>"; };
+		E35826CE1D4898A500210E84 /* TSNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationViewController.h; sourceTree = "<group>"; };
+		E35826CF1D4898A500210E84 /* TSNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationViewController.m; sourceTree = "<group>"; };
+		E35826D11D4898B700210E84 /* TSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabBarViewController.h; sourceTree = "<group>"; };
+		E35826D21D4898B700210E84 /* TSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabBarViewController.m; sourceTree = "<group>"; };
+		E35826D81D48996700210E84 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		E35826D91D48996700210E84 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		E35826DB1D48997C00210E84 /* LinkManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkManViewController.h; sourceTree = "<group>"; };
+		E35826DC1D48997C00210E84 /* LinkManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkManViewController.m; sourceTree = "<group>"; };
+		E35826DE1D48999300210E84 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		E35826DF1D48999300210E84 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		E35826E11D4899A100210E84 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		E35826E21D4899A100210E84 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59372CCFC93E21D0E1D6E84B /* libPods-TSNoChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		888F46D68104393CE6E808E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17798C26D10E98CA87CCB764 /* libPods-TSNoChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA346AF1E2F6D0ED28394E94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C438986B2D4E5200FBC8ED1A /* Pods-TSNoChat.debug.xcconfig */,
+				8949F6D6951CD1501B39C0D4 /* Pods-TSNoChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E35826811D48917000210E84 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				E35826A61D48917000210E84 /* TSNoChatTests */,
 				E35826B11D48917000210E84 /* TSNoChatUITests */,
 				E358268B1D48917000210E84 /* Products */,
+				BA346AF1E2F6D0ED28394E94 /* Pods */,
+				888F46D68104393CE6E808E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +147,20 @@
 		E358268C1D48917000210E84 /* TSNoChat */ = {
 			isa = PBXGroup;
 			children = (
-				E35826901D48917000210E84 /* AppDelegate.h */,
-				E35826911D48917000210E84 /* AppDelegate.m */,
-				E35826931D48917000210E84 /* ViewController.h */,
-				E35826941D48917000210E84 /* ViewController.m */,
+				E35826C11D4891AA00210E84 /* Define */,
+				E35826C41D48921700210E84 /* Chat */,
+				E35826C51D48922600210E84 /* LinkMan */,
+				E35826C61D48924C00210E84 /* Find */,
+				E35826C71D48925700210E84 /* Setting */,
+				E35826C21D4891B900210E84 /* TSBase */,
+				E35826C01D48919900210E84 /* Other */,
 				E35826961D48917000210E84 /* Main.storyboard */,
 				E35826991D48917000210E84 /* Assets.xcassets */,
 				E358269B1D48917000210E84 /* LaunchScreen.storyboard */,
 				E358269E1D48917000210E84 /* Info.plist */,
+				E35826CB1D4897FD00210E84 /* Resource */,
 				E358268D1D48917000210E84 /* Supporting Files */,
+				E35826C81D48963100210E84 /* PrefixHeader.pch */,
 			);
 			path = TSNoChat;
 			sourceTree = "<group>";
@@ -140,6 +191,112 @@
 			path = TSNoChatUITests;
 			sourceTree = "<group>";
 		};
+		E35826C01D48919900210E84 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E35826901D48917000210E84 /* AppDelegate.h */,
+				E35826911D48917000210E84 /* AppDelegate.m */,
+				E35826931D48917000210E84 /* ViewController.h */,
+				E35826941D48917000210E84 /* ViewController.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E35826C11D4891AA00210E84 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				E35826C31D4891F100210E84 /* Constant.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		E35826C21D4891B900210E84 /* TSBase */ = {
+			isa = PBXGroup;
+			children = (
+				E35826CE1D4898A500210E84 /* TSNavigationViewController.h */,
+				E35826CF1D4898A500210E84 /* TSNavigationViewController.m */,
+				E35826D11D4898B700210E84 /* TSTabBarViewController.h */,
+				E35826D21D4898B700210E84 /* TSTabBarViewController.m */,
+			);
+			name = TSBase;
+			sourceTree = "<group>";
+		};
+		E35826C41D48921700210E84 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E35826D41D4898EE00210E84 /* Controller */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		E35826C51D48922600210E84 /* LinkMan */ = {
+			isa = PBXGroup;
+			children = (
+				E35826D51D4898FF00210E84 /* Controller */,
+			);
+			name = LinkMan;
+			sourceTree = "<group>";
+		};
+		E35826C61D48924C00210E84 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				E35826D61D48990900210E84 /* Controller */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		E35826C71D48925700210E84 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E35826D71D48991200210E84 /* Controller */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		E35826CB1D4897FD00210E84 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E35826CC1D48982300210E84 /* Find.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		E35826D41D4898EE00210E84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35826D81D48996700210E84 /* ChatViewController.h */,
+				E35826D91D48996700210E84 /* ChatViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E35826D51D4898FF00210E84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35826DB1D48997C00210E84 /* LinkManViewController.h */,
+				E35826DC1D48997C00210E84 /* LinkManViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E35826D61D48990900210E84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35826DE1D48999300210E84 /* FindViewController.h */,
+				E35826DF1D48999300210E84 /* FindViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E35826D71D48991200210E84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35826E11D4899A100210E84 /* SetViewController.h */,
+				E35826E21D4899A100210E84 /* SetViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E35826B71D48917000210E84 /* Build configuration list for PBXNativeTarget "TSNoChat" */;
 			buildPhases = (
+				8383C395842F0C6BC2900090 /* [CP] Check Pods Manifest.lock */,
 				E35826861D48917000210E84 /* Sources */,
 				E35826871D48917000210E84 /* Frameworks */,
 				E35826881D48917000210E84 /* Resources */,
+				744883C190C8AA5202F6F82D /* [CP] Embed Pods Frameworks */,
+				CFD12AEF58FDA5FD7E6DA9E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +405,7 @@
 			files = (
 				E358269D1D48917000210E84 /* LaunchScreen.storyboard in Resources */,
 				E358269A1D48917000210E84 /* Assets.xcassets in Resources */,
+				E35826CD1D48982300210E84 /* Find.xcassets in Resources */,
 				E35826981D48917000210E84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +426,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		744883C190C8AA5202F6F82D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSNoChat/Pods-TSNoChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8383C395842F0C6BC2900090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD12AEF58FDA5FD7E6DA9E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSNoChat/Pods-TSNoChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E35826861D48917000210E84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35826D31D4898B700210E84 /* TSTabBarViewController.m in Sources */,
 				E35826951D48917000210E84 /* ViewController.m in Sources */,
+				E35826E31D4899A100210E84 /* SetViewController.m in Sources */,
+				E35826DA1D48996700210E84 /* ChatViewController.m in Sources */,
+				E35826DD1D48997C00210E84 /* LinkManViewController.m in Sources */,
+				E35826D01D4898A500210E84 /* TSNavigationViewController.m in Sources */,
 				E35826921D48917000210E84 /* AppDelegate.m in Sources */,
 				E358268F1D48917000210E84 /* main.m in Sources */,
+				E35826E01D48999300210E84 /* FindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +628,11 @@
 		};
 		E35826B81D48917000210E84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C438986B2D4E5200FBC8ED1A /* Pods-TSNoChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = TSNoChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TonyShng.TSNoChat;
@@ -424,8 +642,11 @@
 		};
 		E35826B91D48917000210E84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8949F6D6951CD1501B39C0D4 /* Pods-TSNoChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = TSNoChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TonyShng.TSNoChat;
@@ -498,6 +719,7 @@
 				E35826B91D48917000210E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35826BA1D48917000210E84 /* Build configuration list for PBXNativeTarget "TSNoChatTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +728,7 @@
 				E35826BC1D48917000210E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35826BD1D48917000210E84 /* Build configuration list for PBXNativeTarget "TSNoChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +737,7 @@
 				E35826BF1D48917000210E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
